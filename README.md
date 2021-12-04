@@ -62,7 +62,7 @@ alias drun="docker-compose run --rm"
 
 ## Ruby 3 Slim - Node 16 (LTS)
 
-This image contains Ruby 3 with the current LTS node. Additionally, it contains updated system files, it updates Ruby Gemsets, Bunder and Rake. It also installs [Oh My ZSH](https://ohmyz.sh/) with the [Spaceship prompt theme](https://github.com/spaceship-prompt/spaceship-prompt).
+This image contains Ruby 3 with the current LTS node. Additionally, it contains updated system files, it updates Ruby Gemsets, Bundler and Rake. It also installs [Oh My ZSH](https://ohmyz.sh/) with the [Spaceship prompt theme](https://github.com/spaceship-prompt/spaceship-prompt).
 
 <br/>
 
@@ -98,7 +98,7 @@ docker container run -it narcotik33/ruby3-node16:latest
 
 ## Building A Ruby 3, Node 17 (CURRENT) Image
 
-This image contains Ruby 3 with Node CURRENT. Additionally, it contains updated system files, it updates Ruby Gemsets, Bunder and Rake. It also installs [Oh My ZSH](https://ohmyz.sh/) with the [Spaceship prompt theme](https://github.com/spaceship-prompt/spaceship-prompt).
+This image contains Ruby 3 with Node CURRENT. Additionally, it contains updated system files, it updates Ruby Gemsets, Bundler and Rake. It also installs [Oh My ZSH](https://ohmyz.sh/) with the [Spaceship prompt theme](https://github.com/spaceship-prompt/spaceship-prompt).
 
 
 
