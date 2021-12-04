@@ -116,5 +116,5 @@ docker image build . -t narcotik33/ruby3-node17:latest
 Once the image is created, you can open the image's ZSH command prompt by running the following:
 
 ```zsh
-docker container run -it narcotik33/ruby3-node16:latest
+docker container run -it narcotik33/ruby3-node17:latest
 ```
