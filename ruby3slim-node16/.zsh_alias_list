@@ -1,0 +1,27 @@
+#! /bin/zsh
+
+# SYSTEM
+alias ll='ls -FlaG'   # show a better list of the files in the directory, including hidden files and permissions
+alias reload='src'    # reloads the shell
+alias home="cd $HOME" # returns you to your home dir
+alias app="cd /app"
+alias myip="curl https://ipecho.net/plain; echo" # prints your current IP address
+
+# GIT commands
+alias gbr="git branch "
+alias gco="git checkout "
+alias gnew="git checkout -b "
+alias gstash="git stash"
+alias gpop="git stash pop"
+alias gdrop="git stash drop"
+alias gdel="git branch -D "
+alias godel="gdel && git push origin --delete $1"
+alias gfetch="git fetch"
+alias gmerge="git merge"
+alias gpull="git pull"
+alias gpush="git push"
+alias glog="git log"
+alias gstat="git status"
+
+# RAILS
+alias vedit="EDITOR=vi bin/rails credentials:edit"
